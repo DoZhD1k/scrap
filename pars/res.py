@@ -4,7 +4,7 @@ import csv
 import os
 from bs4 import BeautifulSoup
 from datetime import datetime
-from urllib.parse import urljoin, urlparse, parse_qs
+from urllib.parse import urljoin
 import unicodedata
 import hashlib
 import psycopg2
