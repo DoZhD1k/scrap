@@ -10,11 +10,11 @@ import hashlib
 import psycopg2
 
 
-database = "rwh_datalake"
-user = "rwh_analytics"
-password = "4HPzQt2HyU@"
-host = "172.30.227.205"
-port = "5439"
+database = "database_name"
+user = "user"
+password = "pass"
+host = "host"
+port = "port"
 
 # Подключение к PostgreSQL
 conn = psycopg2.connect(
